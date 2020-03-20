@@ -4,16 +4,17 @@ let outTopics = [];
 let availableTopics = [];
 
 var $list = $("#sectionList");
-var $reloadButton = $("#reloadButton");
-$reloadButton.click(function () {
+var $temasDropdown = $("#temasDrop");
+var $changeButton = $("#changeButton");
+$changeButton.click(function () {
     newTopic(inTopics, outTopics);
+});
+var $resetButton = $("#resetButton");
+$resetButton.click(function () {
     let url = new URL(window.location.href);
-    url.searchParams.set('out', 42);
-    // let urlParams = new URLSearchParams(window.location.search);
-    // urlParams.set('out', "test");
-    // console.log("URLParams: ", urlParams.toString());
-    // console.log("Window loc: ", window.location);
-    //window.location.href = urlParams.toString();
+    url.searchParams.delete('in');
+    url.searchParams.delete('out');
+    window.location.href = url.href;
 });
 getPreviousTopics();
 newTopic(inTopics, outTopics);
@@ -35,26 +36,41 @@ function getPreviousTopics() {
 }
 
 function newTopic(ins, outs) {
-    // Clean the UI
-    $list.empty();
     // Empty availableTopics
     availableTopics.splice(0);
+    $temasDropdown.empty();
     // Take out banned topics
     if (ins.length == 0) {
-        availableTopics = temas.filter(function (tema) {
+        availableTopics = temas.filter(function (tema, index) {
+            let $topic = $("<button class=\"dropdown-item\" type=\"button\">").text(tema.number + " - " + tema.title);
+            $topic.click(function () {
+                getTopic(index);
+            });
+            if (outs.includes(tema.number)) $topic.addClass("disabled");
+            $temasDropdown.append($topic);
             return !(outs.includes(tema.number));
         });
     } else { // Choose only inTopics
         availableTopics = temas.filter(function (tema) {
+            if (ins.includes(tema.number)) {
+                $temasDropdown.append($("<button class=\"dropdown-item\" type=\"button\">").text(tema.number + " - " + tema.title));
+            }
             return ins.includes(tema.number);
         });
     }
     // Choose new topic from the available ones
     temaIndex = Math.floor(Math.random() * availableTopics.length);
-    tema = availableTopics[temaIndex];
+    getTopic(temas.indexOf(availableTopics[temaIndex]));
+}
+
+function getTopic(topicIndex) {
+    // Clean the UI
+    $list.empty();
+    tema = temas[topicIndex];
     document.title = tema.number + " - " + tema.title;
     counter = 0;
-    $list.append($("<li class=\"list-group-item\">").text(tema.number + " - " + tema.title));
+    $dropTitle = $("#dropButton");
+    $dropTitle.text(tema.number + " - " + tema.title);
     nextElement();
 }
 

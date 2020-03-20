@@ -12,12 +12,22 @@
 <body>
     <div class="container">
         <div class="row justify-content-center py-3">
-            <div class="col-4 text-center">
-                <button type="button" id="reloadButton" class="btn btn-primary btn-lg">Outro tema!</button>
+            <div class="col-4">
+                <button type="button" id="changeButton" class="btn btn-warning btn-lg">Outro tema!</button>
+            </div>
+            <div class="col-4 text-right">
+                <button type="button" id="resetButton" class="btn btn-danger btn-lg">Recomezar</button>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
+                <div class="dropdown">
+                    <button class="btn btn-lg btn-info btn-secondary text-left w-100" type="button" id="dropButton"
+                        data-toggle="dropdown">
+                    </button>
+                    <div class="dropdown-menu" id="temasDrop">
+                    </div>
+                </div>
                 <ul class="list-group" id="sectionList">
                 </ul>
             </div>
