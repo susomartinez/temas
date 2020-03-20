@@ -24,6 +24,7 @@ function nextElement() {
     $div.click(function () {
         if (counter < tema.elements.length) {
             nextElement();
+            $("html, body").animate({ scrollTop: $(document).height() }, 1000); // Scroll to the bottom of the page in order to see the new element
         } else {
             newTopic();
         }
