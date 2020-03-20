@@ -7,6 +7,13 @@ var $list = $("#sectionList");
 var $reloadButton = $("#reloadButton");
 $reloadButton.click(function () {
     newTopic(inTopics, outTopics);
+    let url = new URL(window.location.href);
+    url.searchParams.set('out', 42);
+    // let urlParams = new URLSearchParams(window.location.search);
+    // urlParams.set('out', "test");
+    // console.log("URLParams: ", urlParams.toString());
+    // console.log("Window loc: ", window.location);
+    //window.location.href = urlParams.toString();
 });
 getPreviousTopics();
 newTopic(inTopics, outTopics);
@@ -58,7 +65,15 @@ function nextElement() {
         if (counter < tema.elements.length) {
             nextElement();
         } else {
-            newTopic(inTopics, outTopics);
+            // Update the URL parameters
+            let url = new URL(window.location.href);
+            outTopics.push(tema.number);
+            if (outTopics.length < temas.length) {
+                url.searchParams.set('out', outTopics.toString());
+            } else {
+                url.searchParams.delete('out');
+            }
+            window.location.href = url.href;
         }
     });
     $list.append($div);
