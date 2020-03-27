@@ -530,6 +530,36 @@ temas = [
         ]
     },
     {
+        number: 51,
+        title: "Sistemas de referencia no plano e no espazo. Ecuaciñons da recta e do plano. Relacións afíns",
+        elements: [
+            {
+                number: 1,
+                name: "Introdución"
+            },
+            {
+                number: 2,
+                name: "Espazo afín asociado a un espazo vectorial"
+            },
+            {
+                number: 3,
+                name: "A recta"
+            },
+            {
+                number: 4,
+                name: "O plano"
+            },
+            {
+                number: 5,
+                name: "Relacións afíns"
+            },
+            {
+                number: 6,
+                name: "Relación co currículo"
+            }
+        ]
+    },
+    {
         number: 55,
         title: "A xeometría fractal. Nocións básicas",
         elements: [
@@ -555,6 +585,44 @@ temas = [
             },
             {
                 number: 6,
+                name: "Relación co currículo"
+            }
+        ]
+    },
+    {
+        number: 70,
+        title: "Lóxica proposicional. Exemplos e aplicacións ao razoamento matemático",
+        elements: [
+            {
+                number: 1,
+                name: "Introdución"
+            },
+            {
+                number: 2,
+                name: "Simbolismo da lóxica proposicional"
+            },
+            {
+                number: 3,
+                name: "Cálculo proposicional"
+            },
+            {
+                number: 4,
+                name: "Tautoloxía e contradición"
+            },
+            {
+                number: 5,
+                name: "Implicación e equivalencia lóxica"
+            },
+            {
+                number: 6,
+                name: "Álxebra de Boole das proposicións"
+            },
+            {
+                number: 7,
+                name: "Exemplo e aplicacións ao razonamento matemático"
+            },
+            {
+                number: 8,
                 name: "Relación co currículo"
             }
         ]
