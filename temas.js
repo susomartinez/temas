@@ -590,6 +590,44 @@ temas = [
         ]
     },
     {
+        number: 64,
+        title: "Probabilidade composta. Probabilidade condicionada. Probabilidade total. Teorema de Bayes",
+        elements: [
+            {
+                number: 1,
+                name: "Introdución"
+            },
+            {
+                number: 2,
+                name: "Probabilidade marxinal"
+            },
+            {
+                number: 3,
+                name: "Probabilidade condicionada"
+            },
+            {
+                number: 4,
+                name: "Probabilidade composta"
+            },
+            {
+                number: 5,
+                name: "Sucesos independentes"
+            },
+            {
+                number: 6,
+                name: "Probabilidade total"
+            },
+            {
+                number: 7,
+                name: "Teorema de Bayes"
+            },
+            {
+                number: 8,
+                name: "Relación co currículo"
+            }
+        ]
+    },
+    {
         number: 70,
         title: "Lóxica proposicional. Exemplos e aplicacións ao razoamento matemático",
         elements: [

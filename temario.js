@@ -42,7 +42,7 @@ function newTopic(ins, outs) {
     // Take out banned topics
     if (ins.length == 0) {
         availableTopics = temas.filter(function (tema, index) {
-            let $topic = $("<button class=\"dropdown-item\" type=\"button\">").text(tema.number + " - " + tema.title);
+            let $topic = $("<button class=\"dropdown-item\" type=\"button\">").text(tema.number + " - " + tema.title.slice(0,15) + "...");
             $topic.click(function () {
                 getTopic(index);
             });
