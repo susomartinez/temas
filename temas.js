@@ -531,7 +531,7 @@ temas = [
     },
     {
         number: 51,
-        title: "Sistemas de referencia no plano e no espazo. Ecuaciñons da recta e do plano. Relacións afíns",
+        title: "Sistemas de referencia no plano e no espazo. Ecuacións da recta e do plano. Relacións afíns",
         elements: [
             {
                 number: 1,
