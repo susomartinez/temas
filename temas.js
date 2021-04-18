@@ -1,9 +1,7 @@
-temas = [
-    {
+temas = [{
         number: 3,
         title: "Técnicas de reconto. Combinatoria",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -44,8 +42,7 @@ temas = [
     {
         number: 10,
         title: "Sucesivas ampliacións do concepto de número. Evolución histórica e problemas que resolve cada unha",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -86,8 +83,7 @@ temas = [
     {
         number: 11,
         title: "Conceptos básicos de teoría de conxuntos. Estruturas alxébricas",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -128,8 +124,7 @@ temas = [
     {
         number: 13,
         title: "Polinomios. Operacións. Fórmula de Newton. Divisibilidade de polinomios. Fraccións alxébricas",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -138,16 +133,64 @@ temas = [
                 name: "Polinomios. Operacións"
             },
             {
+                number: 2.1,
+                name: "Definicións"
+            },
+            {
+                number: 2.2,
+                name: "Operacións"
+            },
+            {
+                number: 2.3,
+                name: "Notación"
+            },
+            {
                 number: 3,
                 name: "Potencias de polinomios. Fórmula de Newton"
+            },
+            {
+                number: 3.1,
+                name: "Fórmula do binomio de Newton"
+            },
+            {
+                number: 3.2,
+                name: "Fórmula de Leibniz"
             },
             {
                 number: 4,
                 name: "Divisibilidade de polinomios"
             },
             {
+                number: 4.1,
+                name: "Relación de divisibilidade"
+            },
+            {
+                number: 4.2,
+                name: "Máximo común divisor e mínimo común múltiplo de polinomios"
+            },
+            {
+                number: 4.3,
+                name: "Cálculo do mcd usando o algoritmo de Euclides"
+            },
+            {
                 number: 5,
                 name: "Fraccións alxébricas"
+            },
+            {
+                number: 5.1,
+                name: "Definición"
+            },
+            {
+                number: 5.2,
+                name: "Operacións"
+            },
+            {
+                number: 5.3,
+                name: "Fraccións simples"
+            },
+            {
+                number: 5.4,
+                name: "Descomposición en fraccións simples"
             },
             {
                 number: 6,
@@ -158,8 +201,7 @@ temas = [
     {
         number: 14,
         title: "Ecuacións. Resolución de ecuacións. Aproximación numérica de raíces",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -196,8 +238,7 @@ temas = [
     {
         number: 15,
         title: "Ecuacións diofánticas",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -230,8 +271,7 @@ temas = [
     {
         number: 16,
         title: "Discusión e resolución de sistemas de ecuacións lineais. Teorema de Rouché. Regra de Cramer. Método de Gauss-Jordan",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -264,8 +304,7 @@ temas = [
     {
         number: 18,
         title: "Matrices. Álxebra de matrices. Aplicacións ao campo das Ciencias Sociais e da Natureza",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -302,8 +341,7 @@ temas = [
     {
         number: 19,
         title: "Determinantes. Propiedades. Aplicación ao cálculo do rango dunha matriz",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -336,8 +374,7 @@ temas = [
     {
         number: 21,
         title: "Funcións reais de variable real. Funcións elementais. Situacións reais nas que aparecen. Composición de funcións",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -370,8 +407,7 @@ temas = [
     {
         number: 22,
         title: "Funcións exponenciais e logarítmicas. Situacións reais nas que aparecen",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -404,8 +440,7 @@ temas = [
     {
         number: 26,
         title: "Derivada dunha función nun punto. Función derivada. Derivadas sucesivas. Aplicacións",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -434,8 +469,7 @@ temas = [
     {
         number: 35,
         title: "As magnitudes e a súa medida. Fundamentación dos conceptos relacionados con elas",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -464,8 +498,7 @@ temas = [
     {
         number: 38,
         title: "Trigonometría plana. Resolución de triángulos. Aplicacións",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -506,8 +539,7 @@ temas = [
     {
         number: 39,
         title: "Xeometría do triángulo",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -532,8 +564,7 @@ temas = [
     {
         number: 51,
         title: "Sistemas de referencia no plano e no espazo. Ecuacións da recta e do plano. Relacións afíns",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -562,8 +593,7 @@ temas = [
     {
         number: 55,
         title: "A xeometría fractal. Nocións básicas",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -592,8 +622,7 @@ temas = [
     {
         number: 64,
         title: "Probabilidade composta. Probabilidade condicionada. Probabilidade total. Teorema de Bayes",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
@@ -630,8 +659,7 @@ temas = [
     {
         number: 70,
         title: "Lóxica proposicional. Exemplos e aplicacións ao razoamento matemático",
-        elements: [
-            {
+        elements: [{
                 number: 1,
                 name: "Introdución"
             },
