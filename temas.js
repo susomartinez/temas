@@ -88,35 +88,125 @@ temas = [{
                 name: "Introdución"
             },
             {
+                number: 1,
+                name: "Cantor define conxunto e teoría"
+            },
+            {
+                number: 1,
+                name: "Axioma de existencia"
+            },
+            {
+                number: 1,
+                name: "Relación máis simple entre conxuntos"
+            },
+            {
                 number: 2,
                 name: "Subconxuntos"
             },
             {
+                number: 2,
+                name: "Conxunto baleiro"
+            },
+
+            {
+                number: 2,
+                name: "Partes de A"
+            },
+            {
                 number: 3,
                 name: "Álxebra de Boole das partes dun conxunto"
+            },
+
+            {
+                number: 3,
+                name: "Unión e intersección. Diferenza de conxuntos"
+            },
+            {
+                number: 3,
+                name: "Conxunto complementario. Propiedades e leis de Morgan"
             },
             {
                 number: 4,
                 name: "Produto cartesiano de conxuntos"
             },
             {
+                number: 4.1,
+                name: "Par ordeado"
+            },
+            {
+                number: 4.2,
+                name: "Produto cartesiano de 2 conxuntos"
+            },
+            {
                 number: 5,
                 name: "Relacións"
+            },
+            {
+                number: 5.1,
+                name: "Relacións entre conxuntos"
+            },
+            {
+                number: 5.1,
+                name: "Exemplo de relación"
+            },
+            {
+                number: 5.2,
+                name: "Relacións binarias"
+            },
+            {
+                number: 5.3,
+                name: "Relacións de equivalencia"
+            },
+            {
+                number: 5.4,
+                name: "Relacións de orde"
+            },
+            {
+                number: 5.5,
+                name: "Aplicacións"
             },
             {
                 number: 6,
                 name: "Estruturas alxébricas"
             },
             {
+                number: 6.1,
+                name: "Leis de composición"
+            },
+            {
+                number: 6.2,
+                name: "Estruturas alxébricas"
+            },
+            {
                 number: 7,
                 name: "Grupos"
+            },
+
+            {
+                number: 7.1,
+                name: "Semigrupo"
+            },
+            {
+                number: 7.2,
+                name: "Grupo"
             },
             {
                 number: 8,
                 name: "Aneis"
             },
             {
+                number: 8,
+                name: "Dominio de integridade"
+            },
+            {
+                number: 8,
+                name: "Corpo"
+            },
+            {
                 number: 9,
+                name: "A-módulos"
+            } {
+                number: 10,
                 name: "Relación co currículo"
             }
         ]
@@ -214,8 +304,40 @@ temas = [{
                 name: "Ecuacións alxébricas"
             },
             {
+                number: 3,
+                name: "Raíces"
+            },
+            {
+                number: 3,
+                name: "Teorema fundamental da Álxebra"
+            },
+            {
+                number: 3,
+                name: "Coeficientes reais->complexas conxugadas. Raíces das derivadas"
+            },
+            {
+                number: 3,
+                name: "Ecuacións equivalentes"
+            },
+            {
                 number: 4,
                 name: "Resolución de ecuacións alxébricas de grao menor ou igual que catro"
+            },
+            {
+                number: 4.1,
+                name: "Grao 1"
+            },
+            {
+                number: 4.2,
+                name: "Grao 2"
+            },
+            {
+                number: 4.3,
+                name: "Grao 3"
+            },
+            {
+                number: 4.4,
+                name: "Grao 4"
             },
             {
                 number: 5,
@@ -226,12 +348,64 @@ temas = [{
                 name: "Raíces reais dunha ecuación alxébrica"
             },
             {
+                number: 6.1,
+                name: "Acotación de raíces reais"
+            },
+            {
+                number: 6.1,
+                name: ".1 Laguerre"
+            },
+            {
+                number: 6.1,
+                name: ".2 Newton"
+            },
+            {
+                number: 6.2,
+                name: "Separación de raíces dunha ecuación calquera"
+            },
+            {
+                number: 6.3,
+                name: "Separación de raíces dunha ecuación alxébrica"
+            },
+            {
+                number: 6.3,
+                name: ".1 Regra de Descartes"
+            },
+            {
+                number: 6.3,
+                name: ".2 Método de Sturm"
+            },
+            {
                 number: 7,
                 name: "Aproximación de raíces"
             },
             {
+                number: 7.1,
+                name: "Biseección"
+            },
+            {
+                number: 7.2,
+                name: "Regula falsi"
+            },
+            {
+                number: 7.3,
+                name: "Newton"
+            },
+            {
                 number: 8,
                 name: "Relación co currículo"
+            },
+            {
+                number: 8,
+                name: "1º ciclo da ESO"
+            },
+            {
+                number: 8,
+                name: "2º ciclo da ESO"
+            },
+            {
+                number: 8,
+                name: "Bacharelato"
             }
         ]
     },
@@ -313,12 +487,32 @@ temas = [{
                 name: "Definición de matriz"
             },
             {
+                number: 2,
+                name: "Conxunto de matrices"
+            },
+            {
                 number: 3,
                 name: "Suma de matrices e produto por un escalar. O espazo vectorial das matrices"
             },
             {
+                number: 3,
+                name: "Subespazos vectoriais de matrices"
+            },
+            {
                 number: 4,
                 name: "Produto de matrices. O anel das matrices cadradas"
+            },
+            {
+                number: 4,
+                name: "Produto de matrices e propiedades"
+            },
+            {
+                number: 4,
+                name: "Estrutura das matrices co produto"
+            },
+            {
+                number: 4,
+                name: "Matriz inversible"
             },
             {
                 number: 5,
@@ -329,8 +523,44 @@ temas = [{
                 name: "Cálculo do rango e a inversa dunha matriz"
             },
             {
+                number: 6,
+                name: "Operacións elementais"
+            },
+            {
+                number: 6,
+                name: "Método do pivote"
+            },
+            {
                 number: 7,
                 name: "Aplicacións ao campo das Ciencias Sociais e da Natureza"
+            },
+            {
+                number: 7.1,
+                name: "Xeometría"
+            },
+            {
+                number: 7.2,
+                name: "Sistemas de ecuacións lineais"
+            },
+            {
+                number: 7.3,
+                name: "Cálculo en varias variables"
+            },
+            {
+                number: 7.4,
+                name: "Estatística e probabilidade"
+            },
+            {
+                number: 7.5,
+                name: "Economía"
+            },
+            {
+                number: 7.6,
+                name: "Física"
+            },
+            {
+                number: 7.7,
+                name: "Informática"
             },
             {
                 number: 8,
@@ -668,8 +898,24 @@ temas = [{
                 name: "Simbolismo da lóxica proposicional"
             },
             {
+                number: 2.1,
+                name: "Proposicións. Notación"
+            },
+            {
+                number: 2.2,
+                name: "Conectivos ou nexos lóxicos"
+            },
+            {
                 number: 3,
                 name: "Cálculo proposicional"
+            },
+            {
+                number: 3.1,
+                name: "Proposicións e valores de verdade"
+            },
+            {
+                number: 3.2,
+                name: "Definición dos conectores lóxicos mediante a súas táboas de verdade"
             },
             {
                 number: 4,
@@ -688,8 +934,20 @@ temas = [{
                 name: "Exemplo e aplicacións ao razonamento matemático"
             },
             {
+                number: 7,
+                name: "Axioma, teorema"
+            },
+            {
+                number: 7.1,
+                name: "Lei de contraposición (condicionais asociadas)"
+            },
+            {
+                number: 7.2,
+                name: "Demostracións"
+            },
+            {
                 number: 8,
-                name: "Relación co currículo"
+                name: "Uso na aula"
             }
         ]
     }
