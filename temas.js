@@ -205,7 +205,8 @@ temas = [{
             {
                 number: 9,
                 name: "A-módulos"
-            } {
+            },
+            {
                 number: 10,
                 name: "Relación co currículo"
             }
