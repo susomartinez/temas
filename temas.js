@@ -138,6 +138,10 @@ temas = [{
                 name: "Produto cartesiano de 2 conxuntos"
             },
             {
+                number: 4.2,
+                name: "Propiedades do produto cartesiano"
+            },
+            {
                 number: 5,
                 name: "Relacións"
             },
@@ -162,8 +166,16 @@ temas = [{
                 name: "Relacións de orde"
             },
             {
+                number: 5.4,
+                name: "Comparables, maximal, máximo"
+            },
+            {
                 number: 5.5,
                 name: "Aplicacións"
+            },
+            {
+                number: 5.5,
+                name: "App=relación. Dominio e imaxe. Inxectiva, sobrexectiva, bixectiva"
             },
             {
                 number: 6,
@@ -705,20 +717,80 @@ temas = [{
                 name: "Introdución"
             },
             {
+                number: 1,
+                name: "Definicións coloquiais de magnitude e medida"
+            },
+            {
                 number: 2,
                 name: "Conceptos de magnitude e cantidade. Fundamentación"
+            },
+            {
+                number: 2.1,
+                name: "Definición"
+            },
+            {
+                number: 2.1,
+                name: "Magnitude: conxunto con igualdade e suma"
+            },
+            {
+                number: 2.1,
+                name: "Cantidades"
+            },
+            {
+                number: 2.2,
+                name: "Clasificación de magnitudes (2.2.1 extensivas e intensivas, 2.2.2 fundamentais e derivadas)"
             },
             {
                 number: 3,
                 name: "Magnitudes escalares"
             },
             {
+                number: 3.1,
+                name: "Magnitudes escalares relativas e absolutas"
+            },
+            {
+                number: 3.2,
+                name: "Magnitudes escalares continuas e discretas"
+            },
+            {
+                number: 3.3,
+                name: "Estrutura das magnitudes escalares"
+            },
+            {
                 number: 4,
                 name: "Conceptos de medida e unidade. Fundamentación"
             },
             {
+                number: 4,
+                name: "Tipos de medidas (directa e indirecta)"
+            },
+            {
+                number: 4,
+                name: "Isomorfo ao subanel R+, demostración"
+            },
+            {
+                number: 4.1,
+                name: "Sistemas de unidades"
+            },
+            {
                 number: 5,
                 name: "Proporcionalidade entre magnitudes"
+            },
+            {
+                number: 5.1,
+                name: "Magnitudes proporcionais"
+            },
+            {
+                number: 5.1,
+                name: "Directamente proporcionais"
+            },
+            {
+                number: 5.1,
+                name: "Inversamente proporcionais"
+            },
+            {
+                number: 5.2,
+                name: "Cantidades proporcionais"
             },
             {
                 number: 6,
@@ -734,12 +806,32 @@ temas = [{
                 name: "Introdución"
             },
             {
+                number: 1,
+                name: "Estuda triángulos, etimoloxía"
+            },
+            {
                 number: 2,
                 name: "Ángulos"
             },
             {
+                number: 2.1,
+                name: "Unidades de medida"
+            },
+            {
+                number: 2,
+                name: "Representación"
+            },
+            {
                 number: 3,
                 name: "Razóns trigonométricas dun ángulo"
+            },
+            {
+                number: 3,
+                name: "(Resto cadrantes)"
+            },
+            {
+                number: 3,
+                name: "Signos razóns"
             },
             {
                 number: 4,
@@ -750,16 +842,80 @@ temas = [{
                 name: "Redución ao primeiro cadrante"
             },
             {
+                number: 5.1,
+                name: "Complementarios a+b=π/2"
+            },
+            {
+                number: 5.2,
+                name: "Ángulo que difiren π/2"
+            },
+            {
+                number: 5.3,
+                name: "Suplementarios a+b=π"
+            },
+            {
+                number: 5.4,
+                name: "Ángulos que difiren π"
+            },
+            {
+                number: 5.5,
+                name: "Opostos"
+            },
+            {
                 number: 6,
                 name: "Razóns dos ángulos suma, diferenza, dobre e metade"
+            },
+            {
+                number: 6.1,
+                name: "Razóns do ángulos suma"
+            },
+            {
+                number: 6.2,
+                name: "Razóns do ángulo diferenza"
+            },
+            {
+                number: 6.3,
+                name: "Razóns do ángulo dobre"
+            },
+            {
+                number: 6.4,
+                name: "Razóns do ángulo metade"
             },
             {
                 number: 7,
                 name: "Resolución de triángulos"
             },
             {
+                number: 7.1,
+                name: "Teorema do coseno"
+            },
+            {
+                number: 7.2,
+                name: "Teorema dos senos (tamén en obtusángulos)"
+            },
+            {
+                number: 7.3,
+                name: "Teorema da tanxente (ou de Neper)"
+            },
+            {
                 number: 8,
                 name: "Aplicacións"
+            },
+            {
+                number: 8.1,
+                name: "Altura con pé accesible"
+            },
+            {
+                number: 8.2,
+                name: "Altura con pé inaccesible"
+            },
+            {
+                number: 8.3,
+                name: "Cálculo da distancia entre dous puntos, un deles inaccesible"
+            },
+            {
+                number: 8.4,
+                name: "Cálculo da distancia entre dous puntos inaccesibles"
             },
             {
                 number: 9,
