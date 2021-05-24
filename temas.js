@@ -434,8 +434,36 @@ temas = [{
                 name: "Ideas preliminares"
             },
             {
+                number: 2.1,
+                name: "Algoritmo de Euclides"
+            },
+            {
+                number: 2.2,
+                name: "Cumulantes"
+            },
+            {
+                number: 2.3,
+                name: "Igualdade de Bézout"
+            },
+            {
                 number: 3,
                 name: "Ecuación diofántica lineal de dúas incógnitas"
+            },
+            {
+                number: 3.1,
+                name: "Caso homoxéneo"
+            },
+            {
+                number: 3.2,
+                name: "Caso completo"
+            },
+            {
+                number: 3.3,
+                name: "Resolución"
+            },
+            {
+                number: 3.4,
+                name: "Solucións naturais"
             },
             {
                 number: 4,
@@ -446,8 +474,32 @@ temas = [{
                 name: "Ecuacións diofánticas non lineais de dúas incógnitas"
             },
             {
+                number: 5.1,
+                name: "Ecuación x2-y2=a"
+            },
+            {
+                number: 5.2,
+                name: "Ecuación de Pell"
+            },
+            {
+                number: 5.3,
+                name: "Ecuación de Mordell"
+            },
+            {
                 number: 6,
                 name: "Ecuacións diofánticas non lineais de máis de dúas incógnitas"
+            },
+            {
+                number: 6.1,
+                name: "Ecuación pitagórica"
+            },
+            {
+                number: 6.2,
+                name: "Ecuación x2+y2+z2=t2"
+            },
+            {
+                number: 6.3,
+                name: "Ecuación xn+yn=zn"
             },
             {
                 number: 7,
@@ -622,28 +674,108 @@ temas = [{
                 name: "Introdución"
             },
             {
+                number: 1,
+                name: "vida cotiá"
+            },
+            {
                 number: 2,
                 name: "Funcións reais de variable real"
+            },
+            {
+                number: 2.1,
+                name: "Definición"
+            },
+            {
+                number: 2.2,
+                name: "Terminoloxía"
+            },
+            {
+                number: 2.2,
+                name: "Variables"
+            },
+            {
+                number: 2.3,
+                name: "Representación"
             },
             {
                 number: 3,
                 name: "Propiedades das funcións"
             },
             {
+                number: 3,
+                name: "Cotas"
+            },
+            {
                 number: 4,
                 name: "Suma e produto de funcións. Álxebra de funcións"
+            },
+            {
+                number: 4,
+                name: "Conxunto das funcións e relación de equivalencia"
+            },
+            {
+                number: 4.1,
+                name: "Suma de funcións"
+            },
+            {
+                number: 4.1,
+                name: "Estrutura"
+            },
+            {
+                number: 4.2,
+                name: "Produto por un escalar"
+            },
+            {
+                number: 4.3,
+                name: "Produto de funcións"
+            },
+            {
+                number: 4,
+                name: "Puntualización cando os dominios non son iguais (só definidas na interesección)"
             },
             {
                 number: 5,
                 name: "Composición de funcións. A función inversa"
             },
             {
+                number: 5,
+                name: "Inxectiva a anacos"
+            },
+            {
                 number: 6,
                 name: "Funcións elementais e situacións reais nas que aparecen"
             },
             {
+                number: 6.1,
+                name: "Función constante"
+            },
+            {
+                number: 6.2,
+                name: "Funcións lineal e afín"
+            },
+            {
+                number: 6.3,
+                name: "Función cuadrática"
+            },
+            {
+                number: 6.4,
+                name: "Función polinómica"
+            },
+            {
+                number: 6.5,
+                name: "Funcións racionais"
+            },
+            {
+                number: 6.6,
+                name: "Funcións radicais"
+            },
+            {
+                number: 6.7,
+                name: "Función definidas a anacos"
+            },
+            {
                 number: 7,
-                name: "Relación co currículo"
+                name: "Aspectos didácticos"
             }
         ]
     },
@@ -659,24 +791,64 @@ temas = [{
                 name: "Definición de logaritmo natural"
             },
             {
+                number: 2,
+                name: "Non definida para x&lt;0"
+            },
+            {
                 number: 3,
                 name: "Propiedades e gráfica da función logaritmo natural"
+            },
+            {
+                number: 3,
+                name: "log x^n=nlog x e derivar f^g"
             },
             {
                 number: 4,
                 name: "A función exponencial"
             },
             {
+                number: 4,
+                name: "Dominio, recorrido e gráfica"
+            },
+            {
+                number: 4.1,
+                name: "O número e"
+            },
+            {
+                number: 4.2,
+                name: "Outras propiedades da función exponencial (exp(nx), exp(a/b)...)"
+            },
+            {
                 number: 5,
                 name: "As funcións a^x e log_a x"
+            },
+            {
+                number: 5,
+                name: "Non hai propiedades de log_a x, pero hai cambio de base!"
             },
             {
                 number: 6,
                 name: "Funcións exponenciais e logarítmicas en situacións reais"
             },
             {
+                number: 6.1,
+                name: "Crecemento ilimitado"
+            },
+            {
+                number: 6.2,
+                name: "Decrecemento limitado"
+            },
+            {
+                number: 6.3,
+                name: "Crecemento limitado"
+            },
+            {
+                number: 6.4,
+                name: "Logarítmicas"
+            },
+            {
                 number: 7,
-                name: "Relación co currículo"
+                name: "Aspectos didácticos"
             }
         ]
     },
@@ -931,8 +1103,32 @@ temas = [{
                 name: "Introdución"
             },
             {
+                number: 1,
+                name: "Figura de grande importancia, unha das máis sinxelas, primeiras en estudarse, as complexas descompóñense en triángulos"
+            },
+            {
                 number: 2,
                 name: "Definicións e clasificación"
+            },
+            {
+                number: 2.1,
+                name: "Definicións"
+            },
+            {
+                number: 2.2,
+                name: "Clasificación dos triángulos"
+            },
+            {
+                number: 2.3,
+                name: "Consideracións sobre os ángulos dun triángulo"
+            },
+            {
+                number: 2.4,
+                name: "Condicións de igualdade de triángulos"
+            },
+            {
+                number: 2.5,
+                name: "Relacións entre lados e ángulos"
             },
             {
                 number: 3,
@@ -941,6 +1137,22 @@ temas = [{
             {
                 number: 4,
                 name: "Propiedades métricas do triángulo"
+            },
+            {
+                number: 4.1,
+                name: "Teorema de Pitágoras"
+            },
+            {
+                number: 4.2,
+                name: "Interpretación xeométrica"
+            },
+            {
+                number: 4.3,
+                name: "Consecuencias do teorema de Pitágoras"
+            },
+            {
+                number: 4.4,
+                name: "Superficie dun triángulo"
             },
             {
                 number: 5,
