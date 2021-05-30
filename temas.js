@@ -641,24 +641,92 @@ temas = [{
                 name: "Introdución"
             },
             {
+                number: 1,
+                name: "Cauchy termo determinante e notación"
+            },
+            {
                 number: 2,
                 name: "Definición de determinante"
+            },
+            {
+                number: 2.1,
+                name: "Conceptos previos: permutacións"
+            },
+            {
+                number: 2.2,
+                name: "Definición"
             },
             {
                 number: 3,
                 name: "Propiedades dos determinantes"
             },
             {
+                number: 3,
+                name: "Hai 9"
+            },
+            {
                 number: 4,
                 name: "Cálculo dun determinante"
+            },
+            {
+                number: 4.1,
+                name: "Orde 2 ou 3"
+            },
+            {
+                number: 4.2,
+                name: "Menores complementarios e adxuntos"
+            },
+            {
+                number: 4.3,
+                name: "Cálculo de determinantes de orde superior. Teorema de Laplace"
+            },
+            {
+                number: 4.3,
+                name: "Corolario: matrices triangulares"
+            },
+            {
+                number: 4.4,
+                name: "Determinante de Vandermonde"
             },
             {
                 number: 5,
                 name: "Aplicación ao cálculo do rango dunha matriz"
             },
             {
+                number: 5.1,
+                name: "Rango dunha matriz"
+            },
+            {
+                number: 5.1,
+                name: "Teorema: se rango k e M menor de orde k, calquera fila/columna é combinación lineal das k de M"
+            },
+            {
+                number: 5.2,
+                name: "Cálculo do rango"
+            },
+            {
+                number: 5.3,
+                name: "Calculo da matriz inversa"
+            },
+            {
+                number: 5.3,
+                name: "Condición necesaria e suficiente para ter inversa"
+            },
+            {
                 number: 6,
                 name: "Aplicacións do rango"
+            },
+            {
+                number: 6.1,
+                name: "Discusión e resolución de sistemas lineais"
+            },
+            {
+                number: 6.2,
+                name: "Xeometría afín no espazo"
+            },
+            {
+                number: 6.3,
+                name: "Dependencia lineal de vectores"
             },
             {
                 number: 7,
@@ -792,7 +860,7 @@ temas = [{
             },
             {
                 number: 2,
-                name: "Non definida para x&lt;0"
+                name: "Non definida para x<0"
             },
             {
                 number: 3,
@@ -860,24 +928,120 @@ temas = [{
                 name: "Introdución"
             },
             {
+                number: 1,
+                name: "Fermat, outras aplicacións"
+            },
+            {
                 number: 2,
                 name: "Concepto de derivada nun punto"
+            },
+            {
+                number: 2,
+                name: "TVM, TVI, notación"
+            },
+            {
+                number: 2,
+                name: "Derivadas laterais"
             },
             {
                 number: 3,
                 name: "Función derivada. Regras de derivación"
             },
             {
+                number: 3.1,
+                name: "Linealidade"
+            },
+            {
+                number: 3.2,
+                name: "Derivada da composición. Regra da cadea"
+            },
+            {
+                number: 3.3,
+                name: "Derivadas dalgunhas funcións coñecidas"
+            },
+            {
+                number: 3.3,
+                name: ".1 Función constante"
+            },
+            {
+                number: 3.3,
+                name: ".2 Función identidade"
+            },
+            {
+                number: 3.3,
+                name: ".3 Función potencial"
+            },
+            {
+                number: 3.3,
+                name: ".4 Función polinómica"
+            },
+            {
+                number: 3.3,
+                name: ".5 Función logarítmica"
+            },
+            {
+                number: 3.3,
+                name: ".6 Función exponencial"
+            },
+            {
+                number: 3.3,
+                name: ".7 Produto"
+            },
+            {
+                number: 3.3,
+                name: ".8 Cociente"
+            },
+            {
+                number: 3.3,
+                name: ".9 Funcións trigonométricas"
+            },
+            {
                 number: 4,
                 name: "Derivadas sucesivas"
+            },
+            {
+                number: 4,
+                name: "Regra de Leibniz"
+            },
+            {
+                number: 4,
+                name: "Importancia -> Taylor, McLaurin"
             },
             {
                 number: 5,
                 name: "Aplicacións das derivadas"
             },
             {
+                number: 5.1,
+                name: "Xeometría"
+            },
+            {
+                number: 5.2,
+                name: "Análise de funcións"
+            },
+            {
+                number: 5.3,
+                name: "Teorema de Rolle"
+            },
+            {
+                number: 5.4,
+                name: "Teorema do valor medio ou de Lagrange"
+            },
+            {
+                number: 5.5,
+                name: "Teorema do valor medio xeneralizado ou de Cauchy"
+            },
+            {
+                number: 5.6,
+                name: "Cálculo de límites"
+            },
+            {
+                number: 5.7,
+                name: "Aproximación de raíces"
+            },
+            {
                 number: 6,
-                name: "Relación co currículo"
+                name: "Aspectos didácticos"
             }
         ]
     },
