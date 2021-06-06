@@ -240,12 +240,24 @@ temas = [{
                 name: "Definicións"
             },
             {
+                number: 2.1,
+                name: "Polinomio nulo"
+            },
+            {
+                number: 2.1,
+                name: "Coeficiente principal. Polinomio mónico"
+            },
+            {
                 number: 2.2,
                 name: "Operacións"
             },
             {
                 number: 2.3,
                 name: "Notación"
+            },
+            {
+                number: 2.3,
+                name: "Extensión a varias variables"
             },
             {
                 number: 3,
@@ -272,6 +284,10 @@ temas = [{
                 name: "Máximo común divisor e mínimo común múltiplo de polinomios"
             },
             {
+                number: 4.2,
+                name: "Polinomios primos entre si"
+            },
+            {
                 number: 4.3,
                 name: "Cálculo do mcd usando o algoritmo de Euclides"
             },
@@ -282,6 +298,10 @@ temas = [{
             {
                 number: 5.1,
                 name: "Definición"
+            },
+            {
+                number: 5.1,
+                name: "Relación de equivalencia"
             },
             {
                 number: 5.2,
