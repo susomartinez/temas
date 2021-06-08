@@ -1590,32 +1590,92 @@ temas = [{
                 name: "Introdución"
             },
             {
+                number: 1,
+                name: "Pártese dos conceptos tratados no 63, habitualmente prob como indep"
+            },
+            {
                 number: 2,
                 name: "Probabilidade marxinal"
+            },
+            {
+                number: 2,
+                name: "Xeneralización da prob marxinal: dúas particións Ar Bs, puntos equiprobables 1/n nij táboa"
+            },
+            {
+                number: 2,
+                name: "Cálculo de p(AeB), p(A). Xeneralización para 3 criterios. Para n inmediato"
             },
             {
                 number: 3,
                 name: "Probabilidade condicionada"
             },
             {
+                number: 3,
+                name: "Cálculo de A2 sabendo que B3 usando táboa. En xeral, dividir arriba e abaixo entre n-> fórmula prob cond"
+            },
+            {
+                number: 3,
+                name: "Xeneralización para 3 criterios"
+            },
+            {
+                number: 3,
+                name: "p(B)=0 -> p(A|B) non definida"
+            },
+            {
+                number: 3,
+                name: "Espazo de probabilidade condicionada"
+            },
+            {
                 number: 4,
+                name: "Sucesos independentes"
+            },
+            {
+                number: 4,
+                name: "Definición (in)dependentes. Exemplo (dados, moedas, números bonitos)"
+            },
+            {
+                number: 4,
+                name: "n sucesos independentes: dous a dous, entre si"
+            },
+            {
+                number: 5,
                 name: "Probabilidade composta"
             },
             {
                 number: 5,
-                name: "Sucesos independentes"
+                name: "Teorema da probabilidade composta: An indep entre si, intersección todos=1·2|1·3|1e2·..."
+            },
+            {
+                number: 5,
+                name: "Exemplo: sacar tres ases. Reflexión: non é evidente"
+            },
+            {
+                number: 5,
+                name: "A1,A2,B1,B2 m1,m2,m11... táboa. Calcular A1eB1 e con ela p(A1)=AeB1+AeB2≠P(A1) sen B"
+            },
+            {
+                number: 5,
+                name: "A intersección calculada a través da condicionada sempre OK. Enumeración de resultados só se número non depende do 1º suceso"
             },
             {
                 number: 6,
                 name: "Probabilidade total"
             },
             {
+                number: 6,
+                name: "Teorema da probabilidade total e demostración. Exemplo: p(obxecto vermello)"
+            },
+            {
                 number: 7,
                 name: "Teorema de Bayes"
             },
             {
+                number: 7,
+                name: "Exemplo: p(cubo|azul)"
+            },
+            {
                 number: 8,
-                name: "Relación co currículo"
+                name: "Aspectos didácticos"
             }
         ]
     },
