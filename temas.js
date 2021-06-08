@@ -386,11 +386,11 @@ temas = [{
             },
             {
                 number: 6.1,
-                name: ".1 Laguerre"
+                name: "1 Laguerre"
             },
             {
                 number: 6.1,
-                name: ".2 Newton"
+                name: "2 Newton"
             },
             {
                 number: 6.2,
@@ -402,11 +402,11 @@ temas = [{
             },
             {
                 number: 6.3,
-                name: ".1 Regra de Descartes"
+                name: "1 Regra de Descartes"
             },
             {
                 number: 6.3,
-                name: ".2 Método de Sturm"
+                name: "2 Método de Sturm"
             },
             {
                 number: 7,
@@ -981,39 +981,39 @@ temas = [{
             },
             {
                 number: 3.3,
-                name: ".1 Función constante"
+                name: "1 Función constante"
             },
             {
                 number: 3.3,
-                name: ".2 Función identidade"
+                name: "2 Función identidade"
             },
             {
                 number: 3.3,
-                name: ".3 Función potencial"
+                name: "3 Función potencial"
             },
             {
                 number: 3.3,
-                name: ".4 Función polinómica"
+                name: "4 Función polinómica"
             },
             {
                 number: 3.3,
-                name: ".5 Función logarítmica"
+                name: "5 Función logarítmica"
             },
             {
                 number: 3.3,
-                name: ".6 Función exponencial"
+                name: "6 Función exponencial"
             },
             {
                 number: 3.3,
-                name: ".7 Produto"
+                name: "7 Produto"
             },
             {
                 number: 3.3,
-                name: ".8 Cociente"
+                name: "8 Cociente"
             },
             {
                 number: 3.3,
-                name: ".9 Funcións trigonométricas"
+                name: "9 Funcións trigonométricas"
             },
             {
                 number: 4,
@@ -1352,23 +1352,203 @@ temas = [{
                 name: "Introdución"
             },
             {
+                number: 1,
+                name: "Xeometría e álxebra separadas ata que Descartes as une no s. XVII"
+            },
+            {
                 number: 2,
                 name: "Espazo afín asociado a un espazo vectorial"
             },
             {
+                number: 2,
+                name: "Definición. Dimensión"
+            },
+            {
+                number: 2,
+                name: "Espazo afín real: terna (E,V3(R),f)"
+            },
+            {
+                number: 2,
+                name: "Subespazos afíns ou variedades lineais afíns"
+            },
+            {
+                number: 2,
+                name: "Exemplos (punto, recta, plano, espazo). A partir de agora trabállase en A3"
+            },
+            {
                 number: 3,
-                name: "A recta"
+                name: "Sistemas de referencia"
+            },
+            {
+                number: 3,
+                name: "Definición. Exemplo"
+            },
+            {
+                number: 3,
+                name: "Como queda determinado un punto P. Coordenadas de O. Eixes"
+            },
+            {
+                number: 3,
+                name: "Propiedades (AA=0 e AB=CD<->AC=BD)"
+            },
+            {
+                number: 3,
+                name: "Vector de posición e coordenadas dun punto"
+            },
+            {
+                number: 3,
+                name: "Cambio de sistema de referencia"
             },
             {
                 number: 4,
-                name: "O plano"
+                name: "A recta"
+            },
+            {
+                number: 4.1,
+                name: "Definición"
+            },
+            {
+                number: 4.2,
+                name: "Ecuacións da recta"
+            },
+            {
+                number: 4.2,
+                name: "1 Vectorial"
+            },
+            {
+                number: 4.2,
+                name: "2 Paramétricas"
+            },
+            {
+                number: 4.2,
+                name: "3 Continua"
+            },
+            {
+                number: 4.2,
+                name: "4 Implícitas"
+            },
+            {
+                number: 4.3,
+                name: "A recta no plano"
             },
             {
                 number: 5,
-                name: "Relacións afíns"
+                name: "O plano"
+            },
+            {
+                number: 5.1,
+                name: "Definición"
+            },
+            {
+                number: 5.2,
+                name: "Ecuacións"
+            },
+            {
+                number: 5.2,
+                name: "1 Vectorial"
+            },
+            {
+                number: 5.2,
+                name: "2 Paramétricas"
+            },
+            {
+                number: 5.2,
+                name: "3 Ecuación en forma de determinante"
+            },
+            {
+                number: 5.2,
+                name: "4 Xeral"
+            },
+            {
+                number: 5.2,
+                name: "5 Segmentaria"
             },
             {
                 number: 6,
+                name: "Relacións afíns"
+            },
+            {
+                number: 6.1,
+                name: "Dúas rectas"
+            },
+            {
+                number: 6.1,
+                name: "1 Coincidentes"
+            },
+            {
+                number: 6.1,
+                name: "2 Paralelas"
+            },
+            {
+                number: 6.1,
+                name: "3 Secantes"
+            },
+            {
+                number: 6.1,
+                name: "4 Crúzanse"
+            },
+            {
+                number: 6.2,
+                name: "Dous planos"
+            },
+            {
+                number: 6.2,
+                name: "1 Coincidentes"
+            },
+            {
+                number: 6.2,
+                name: "2 Paralelos"
+            },
+            {
+                number: 6.2,
+                name: "3 Secantes"
+            },
+            {
+                number: 6.3,
+                name: "Unha recta e un plano"
+            },
+            {
+                number: 6.3,
+                name: "1 A recta está sobre o plano"
+            },
+            {
+                number: 6.3,
+                name: "2 A recta é paralela ao plano"
+            },
+            {
+                number: 6.3,
+                name: "3 A recta corta ao plano"
+            },
+            {
+                number: 6.4,
+                name: "Tres planos"
+            },
+            {
+                number: 6.4,
+                name: "1 Coincidentes"
+            },
+            {
+                number: 6.4,
+                name: "2 Dous coincidentes e un paralelo"
+            },
+            {
+                number: 6.4,
+                name: "3 Córtanse nunha recta ou dous coincidentes e outro secante"
+            },
+            {
+                number: 6.4,
+                name: "4 Tres paralelos"
+            },
+            {
+                number: 6.4,
+                name: "5 Secantes dous a dous ou dous paralelos e outro cortando a ambos"
+            },
+            {
+                number: 6.4,
+                name: "6 Secantes nun punto"
+            },
+            {
+                number: 7,
                 name: "Relación co currículo"
             }
         ]
