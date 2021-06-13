@@ -535,24 +535,88 @@ temas = [{
                 name: "Introdución"
             },
             {
+                number: 1,
+                name: "Usábanse xa en Babilonia, pero só 1 solución. Gauss asteroide. Estrutura do tema"
+            },
+            {
                 number: 2,
                 name: "Sistemas de ecuacións lineais"
             },
             {
+                number: 2.1,
+                name: "Definicións"
+            },
+            {
+                number: 2.2,
+                name: "Notación"
+            },
+            {
                 number: 3,
-                name: "Sistemas de Cramer"
+                name: "Regra de Cramer"
+            },
+            {
+                number: 3,
+                name: "Sistemas de Cramer (det≠0). Son comp det. E viceversa"
+            },
+            {
+                number: 3,
+                name: "Regra de Cramer. xj=1/|A|·∑Aij·bi"
             },
             {
                 number: 4,
                 name: "Discusión dun sistema lineal xeral. Teorema de Rouché"
             },
             {
+                number: 4.1,
+                name: "Rango dunha matriz"
+            },
+            {
+                number: 4.1,
+                name: "Relación do rango coas liñas da matriz"
+            },
+            {
+                number: 4.2,
+                name: "Teorema de Rouché"
+            },
+            {
+                number: 4.2,
+                name: "Matriz ampliada"
+            },
+            {
+                number: 4.3,
+                name: "Discusión (e resolución) do sistema lineal xeral"
+            },
+            {
                 number: 5,
-                name: "Métodos de Gauss e Gauss-Jordan"
+                name: "(Resolución dun sistema lineal xeral.) Métodos de Gauss e Gauss-Jordan"
+            },
+            {
+                number: 5.1,
+                name: "Sistemas lineais equivalentes"
+            },
+            {
+                number: 5.2,
+                name: "Método de Gauss"
+            },
+            {
+                number: 5.2,
+                name: "En sistemas compatibles determinados!"
+            },
+            {
+                number: 5.3,
+                name: "Aplicación en sistemas lineais xerais"
+            },
+            {
+                number: 5.3,
+                name: "Conseguir matriz escalonada"
+            },
+            {
+                number: 5.4,
+                name: "Método de Gauss-Jordan"
             },
             {
                 number: 6,
-                name: "Interpretación xeométrica"
+                name: "(Interpretación xeométrica)?"
             },
             {
                 number: 7,
